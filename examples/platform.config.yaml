@@ -1,0 +1,5 @@
+config:
+  keycloak:
+    realm: platform
+    namespace: l12m-keycloak
+    fqdn: keycloak.s15m.dev

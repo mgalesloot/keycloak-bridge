@@ -1,0 +1,29 @@
+---
+tenant:
+  name: lpctest
+  
+  groups:
+    - name: lpctest_developer
+      admin: false
+      members:
+        - lpctest
+        - owner 
+        - reporter
+    - name: lpctest_developer8
+      admin: false
+      members:
+        - lpctest
+        - owner 
+        - reporter
+        - developer
+        - mgalesloot
+        - maintainer
+    - name: lpctest_developer10
+      admin: false
+      members:
+        - lpctest
+        - owner 
+        - reporter
+        
+
+  
